@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap')
+
+.inter-<uniquifier> {
+  	font-family: "Inter", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+  	font-variation-settings:
+    "slnt" 0;
+}
+
+body {
+	background-color: #F1F5F9;
+  	font-family: "Inter", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+  	font-variation-settings:
+    "slnt" 0;
+}
+
+.logo {
+	position: absolute;
+	width: 87px;
+	height: 24px;
+	left: 180px;
+	top: 28px;
+}
+.bg-blue {
+	background-image: url(../img/bg.png);
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+.dots {
+	position: relative;
+	width: 232px;
+	height: 180px;
+}
+.dots::before {
+	content: "";
+    position: absolute;
+    top: 100%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+	width: 232px;
+	height: 180px;
+    background-image: url(../img/dots.png);
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+.default-form {
+	background-color: #ffffff;
+}
+
+
+.Banner-slider .slider-img {
+	width: 340px !important;
+}
+
+.bg-dblue {
+	background-color: #040631 !important;
+}
+
+.preloader {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+	z-index: 9999;
+}
+.preloader img {
+	width: 132px;
+	height: 80px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: #040631;
+	border-radius: 20px;
+}
